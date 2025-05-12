@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px 0px;
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+                .card {
+                    width: 33%;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                        .img {
+                            width: 100%;
+                            overflow: hidden;
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                    transition: .5s;
+                                    cursor: pointer;
+                                        &:hover {
+                                            transform: scale(1.08);
+                                            transition: .5s;
+                                        }
+                                }
+                        }
+                        .btn {
+                            width: 100%;
+                            position: absolute;
+                            text-align: center;
+                                button {
+                                    width: 180px;
+                                    height: 60px;
+                                    line-height: 60px;
+                                    text-align: center;
+                                    background-color: #fff;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #1e1e1e;
+                                    border: none;
+                                    cursor: pointer;
+                                    transition: .6s;
+                                        &:hover {
+                                            transition: .6s;
+                                            background: #2f7dfc;
+                                            color: #fff;
+                                        }
+                                }
+                        }
+                }
+        }
+}

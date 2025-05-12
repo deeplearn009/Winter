@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+        header {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                .logo {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+                nav {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 55px;
+                        a {
+                            text-decoration: none;
+                            font-size: 14px;
+                            color: #000;
+                        }
+                }
+                .iconbox {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap: 30px;
+                        #icon {
+                            cursor: pointer;
+                        }
+                }
+        }
+}
